@@ -1,0 +1,15 @@
+INDEX VERSION 1.131+C:\Users\Kattya\Desktop\PytsJava\.metadata\.plugins\org.eclipse.jdt.core
+183964834.index
+933250554.index
+2359227642.index
+500135183.index
+2819049587.index
+2867669082.index
+793107645.index
+1596501301.index
+1967315801.index
+1049468600.index
+1906313260.index
+1822054398.index
+607266121.index
+1519472937.index

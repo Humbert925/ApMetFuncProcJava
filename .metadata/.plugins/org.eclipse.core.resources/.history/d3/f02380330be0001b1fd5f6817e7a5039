@@ -1,0 +1,55 @@
+import java.util.HashSet;
+import java.util.TreeSet;
+import java.util.LinkedHashSet;
+import java.util.Set; 
+
+public class Colecciones {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*La coleeccion Set no puede contener elementos duplicados
+		 * sólo tiene los metodos "heredados" de Collection
+		 * Existen difrerentes tipos de implementaciones
+		 * 
+		 * HashSet: Esta implementación almacena los elementos en una tabla hash.
+		 * Es la que mejor rendimeinto tiene. 
+		 * Los elementos no tienen un orden.*/
+		
+		Set<String> frutas = new LinkedHashSet();
+		frutas.add("Manzana");
+		frutas.add("Mango");
+		frutas.add("Durazno");
+		frutas.add("Kiwi");
+		frutas.add("Pera");
+		frutas.add("Piña");
+		frutas.add("Cereza");
+		frutas.add("Fresa");
+		frutas.add("Mandarina");
+		frutas.add("Naranja");
+		frutas.add("Maracuyá");
+		frutas.add("Carambola");
+		frutas.add("Granada");
+		frutas.add("Melón");
+		frutas.add("Sandía");
+		frutas.add("Platano");
+		frutas.add("Zarzamora");
+		frutas.add("Mamey");
+		frutas.add("Guayaba");
+		frutas.add("Zapote Negro");
+		
+		for (String fruta: frutas) {
+			System.out.println(fruta);
+		}
+		/*System.out.println(frutas.contains("Aguacate"));*/
+		
+		/*usar "HashSet" muestra los resultados desordenados, tiene que ver con 
+		como trbaja la máquina y su memoria
+		
+		Usar "TreeSet ordena alfabéticamente si son strings o numericamente sí 
+		son variables numericas "
+		*/
+		
+	}
+
+}

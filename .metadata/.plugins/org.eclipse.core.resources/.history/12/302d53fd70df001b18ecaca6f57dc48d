@@ -1,0 +1,38 @@
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+public class ApMetFunProc {
+	public static void main (String[]args) {
+		
+		int n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el primer numero"));
+		int n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el segundo numero"));
+		int n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el tercer numero"));
+					
+			if(n1>n2 && n1>n3){
+				JOptionPane.showMessageDialog(null, "El primer numero es mayor: "
+						+n1, "Información", JOptionPane.INFORMATION_MESSAGE);
+				}else if (n2>n1 && n2>n3) {
+					JOptionPane.showMessageDialog(null, "El segundo numero es mayor: "
+							+n2, "Información", JOptionPane.INFORMATION_MESSAGE);
+					
+				}else if (n3>n2 && n3>n1) {
+					JOptionPane.showMessageDialog(null, "El tercer numero es mayor: "
+							+n3, "Información", JOptionPane.INFORMATION_MESSAGE);
+					}else {
+						JOptionPane.showMessageDialog(null, "Los numeros son iguales: ");
+					}
+		}
+
+}
+
+/*Debe diseñar un programa que reciba 3 números por consola y determine cual de los 3 números es el mayor.
+Plus: Imprimir los números ordenados de mayor a menor.
+Plus: Imprimir los números ordenados de menor a mayor.
+
+*System.out.println("Type first number:");
+			n1=numero.nextInt();
+			System.out.println("Type second number:");
+			n2=numero.nextInt();
+			System.out.println("Type third number:");
+			n3=numero.nextInt();
+			
+*/

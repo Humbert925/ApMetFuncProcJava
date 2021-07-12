@@ -1,0 +1,19 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CuentaBancaria cuenta_personal =new CuentaBancaria();
+		cuenta_personal.beneficiario="Humberto Morales";
+		
+		System.out.println(cuenta_personal.beneficiario);
+		
+		CuentaBancaria cuenta_David = new CuentaBancaria();
+		cuenta_David.beneficiario = "David Carrillo";
+		
+		//cuenta_personal; 
+
+	}
+
+}
