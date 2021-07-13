@@ -10,7 +10,10 @@ public class Principal {
 		Perro Ernesto = new Perro ();
 		System.out.println(Ernesto.ladrar());
 		System.out.println(Ernesto.comer());
+		System.out.println("---------------------------------------");
 		
+		Gato Felix = new Gato();
+		System.out.println(Felix.comer());
 	}
 
 }

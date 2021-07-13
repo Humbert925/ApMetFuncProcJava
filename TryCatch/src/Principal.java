@@ -1,8 +1,8 @@
 
 public class Principal {
 	//usar static acá 
-	static int numerador=0;
-	static int denominador=10;
+	static int numerador=10;
+	static Integer denominador=2;
 	static float division;
 
 	public static void main(String[] args) {
@@ -16,10 +16,15 @@ public class Principal {
 		}catch(ArithmeticException ex) {
 			division =0;
 			System.out.println("Error: " + ex.getMessage());
+		}catch(NullPointerException ex) {
+			division =0;
+			System.out.println("Error: " + ex.getMessage());
+			System.out.println("Segundo catch");
+		}finally {
+			System.out.println("Después de la división");
 		}
-		
-		
-		System.out.println("Después de la división");
-	
 	}
 }
+/*Dentro de esos parentesis, 
+ * sí se usa Exception captará todos los errores
+ * ArithmeticException ex iba dentro del catch*/

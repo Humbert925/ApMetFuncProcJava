@@ -17,4 +17,12 @@ public class IteracionElementos {
 		 * Regresa los datos como un arreglo ordenado
 		 * 
 		 * 
-		 * esto es similar a un ciclo foreach en Java*/
+		 * esto es similar a un ciclo foreach en Java
+		 * 
+		 * __________________________________________
+		 * 
+		 * Por otro lado, no me queda claro 
+		 * por qué se le llamó a esta seccion iteración de elementos
+		 *  vlv :v 
+		 * 
+		 * */
