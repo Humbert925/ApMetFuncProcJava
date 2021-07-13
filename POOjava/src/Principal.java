@@ -15,7 +15,10 @@ public class Principal {
 		 * 6. Salir
 		 * */
 		
-		CuentaBancaria cuenta_personal =new CuentaBancaria("Humbert", 0.00f);
+		CuentaBancaria cuenta_personal =new CuentaBancaria("Humberto", 0.00f);
+		CuentaBancaria cuenta_secuendaria= new CuentaBancaria("Roberto",0.00f);
+		//cuenta_secuendaria.setSaldo(1200.00f);
+		//System.out.println(cuenta_secundaria.getSaldo());
 		
 		int option = 0;
 		
